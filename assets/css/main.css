@@ -22,7 +22,9 @@ html, body {
 p {
   font-family: 'Josefin Sans', sans-serif;
 }
-
+.subparagraph {
+  font-size: 10px;
+}
 .profile {
   max-height: 400px;
   border: 2px solid #d1e5f9;
@@ -57,7 +59,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-button {
+.button {
   background-color: transparent;
   border-radius: 6px;
   border:  1px solid #d1e5f9;
@@ -111,4 +113,68 @@ hr {
 }
 #footer { 
   background-color: #f7f7f7;
+}
+
+@media screen and (min-width: 768px) {
+  .profile {
+    max-height: 500px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  p {
+    line-height: 1.25em;
+    font-size: 40px;
+  }
+  .button, .liveLink {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  .shorthyphen {
+    width: 8em;
+  }
+  .subparagraph {
+    font-size: 20px;
+  }
+  .projects li {
+    display: inline-block;
+  }
+  .image img{
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .content p, #about .major p, .contact li {
+    font-size: 25px;
+  }
+  .thumbnails img, .thumbnails2 img {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact li {
+    display: inline-block;
+    padding: 10px;
+  }
+  .projects li {
+    font-size: 17px;
+  }
+  .image, .thumbnails {
+    float: left;
+    padding: 10px;
+  }
+  .image {
+    padding-top: 20px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .thumbnails{
+    clear: both;
+  }
 }
