@@ -94,6 +94,7 @@ section {
 }
 
 hr {
+  background-color: #fbfbfb; 
   display: block;
   height: 1px;
   border: 0;
