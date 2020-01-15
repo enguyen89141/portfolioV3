@@ -25,6 +25,10 @@ p {
 .subparagraph {
   font-size: 10px;
 }
+
+.label {
+  font-weight: normal;
+}
 .profile {
   max-height: 400px;
   border: 2px solid #d1e5f9;
@@ -85,7 +89,6 @@ a {
 }
 section {
   text-align: center;
-  background-color: #fbfbfb;
 }
 .major, .label, .projects li, .footer {
   padding: 5px;
