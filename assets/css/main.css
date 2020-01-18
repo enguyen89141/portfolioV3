@@ -152,6 +152,9 @@ hr {
   .content p, #about .major p, .contact li {
     font-size: 25px;
   }
+  .content {
+  padding-bottom: 20px;
+  }
   .thumbnails img, .thumbnails2 img {
     height: 90px;
     width: 90px;
