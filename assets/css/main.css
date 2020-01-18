@@ -47,6 +47,7 @@ p {
 
 .content, .footer{
   text-align: center;
+  padding-bottom: 20px;
 }
 .inner {
   padding-top: 10%;
