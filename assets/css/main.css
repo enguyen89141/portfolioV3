@@ -9,7 +9,7 @@ html, body {
 
 #header {
   background-color: #4696e5;
-  color: #d1e5f9;
+  color: black;
   background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
   background-position: top left, center center;
   background-attachment: fixed, fixed;
@@ -74,7 +74,7 @@ a {
   padding: 0 60px;
 }
 .major, .label{ 
-  color: #828282 !important;
+  color: black !important;
 }
 .liveLink {
   color: black !important;
